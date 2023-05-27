@@ -1487,7 +1487,7 @@ a:hover {
 }
 
 .store__inner-top mark {
-  display: inline;
+  display: inline-block;
   color: #FFFFFF;
   background-color: #FF3C03;
   padding: 10px;
