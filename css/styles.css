@@ -1381,7 +1381,7 @@ a:hover {
   margin-top: 150px;
 }
 
-.main__swiper .swiper-slide  {
+.main__swiper {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
 }
