@@ -777,9 +777,9 @@ button:hover {
 }
 */
 
-/* .main__swiper-bg {
-  padding-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
-} */
+.main__swiper-bg {
+  margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
+} 
 
 .marg-bottom .store__inner-top,
 .marg-bottom .section-title,
