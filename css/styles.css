@@ -2430,7 +2430,7 @@ a:hover {
   padding-bottom: clamp(1.875rem, 0.9184rem + 4.0816vw, 5rem);
   background-image: url('../images/footer/img-bg.png');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   overflow: hidden;
 }
 
