@@ -2850,8 +2850,8 @@ a:hover {
   .btn-top {
     width: 30px;
     height: 30px;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 20px;
     border-radius: 0;
   }
 
