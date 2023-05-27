@@ -1423,7 +1423,7 @@ a:hover {
 
 .main__swiper .swiper-pagination {
   position: absolute;
-  bottom: 35px;
+  bottom: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
