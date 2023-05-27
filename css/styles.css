@@ -3119,7 +3119,6 @@ a:hover {
     height: 6px;
   }
 
-
   .about-us iframe {
     height: 500px;
   }
@@ -3129,7 +3128,7 @@ a:hover {
   }
 
   .footer__center {
-    background-attachment: fixed;
+/*     background-attachment: fixed; */
   }
 
   .pop-up-padding::-webkit-scrollbar {
