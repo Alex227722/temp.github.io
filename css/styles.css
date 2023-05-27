@@ -1381,10 +1381,10 @@ a:hover {
   margin-top: 150px;
 }
 
-/* .main__swiper {
+ .main__swiper {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-} */
+} 
 
 .main__swiper-title {
   font-family: 'Bebas Neue Cyrillic', sans-serif;
@@ -1423,7 +1423,7 @@ a:hover {
 
 .main__swiper .swiper-pagination {
   position: absolute;
-  bottom: 55px;
+  bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3126,11 +3126,13 @@ a:hover {
   .category__list-inner li:nth-last-child(1):nth-child(odd) {
     grid-column: 1 / -1;
   }
-
+  
+/* 
   .footer__center {
-/*     background-attachment: fixed; */
+   background-attachment: fixed; 
   }
-
+ */
+  
   .pop-up-padding::-webkit-scrollbar {
     width: 3px;
   }
