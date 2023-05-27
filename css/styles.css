@@ -1364,7 +1364,7 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   margin: 0;
-  min-height: 100vh;
+  height: 100vh;
   background-repeat: repeat, no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -1379,6 +1379,11 @@ a:hover {
   background-color: rgb(31, 31, 28, 0.8);
   padding: clamp(1.875rem, 1.4923rem + 1.6327vw, 3.125rem);
   margin-top: 150px;
+}
+
+.main__swiper .swiper-slide>div {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .main__swiper-title {
