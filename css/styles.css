@@ -1381,10 +1381,10 @@ a:hover {
   margin-top: 150px;
 }
 
-.main__swiper {
+/* .main__swiper {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-}
+} */
 
 .main__swiper-title {
   font-family: 'Bebas Neue Cyrillic', sans-serif;
@@ -1423,7 +1423,7 @@ a:hover {
 
 .main__swiper .swiper-pagination {
   position: absolute;
-  bottom: 20px;
+  bottom: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
