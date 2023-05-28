@@ -1378,12 +1378,12 @@ a:hover {
 }
 
  .main__swiper {
-  height: 100vh;
+  height: calc(100vh - 100px);
 } 
 
 .main__swiper-bg {
   margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
-  color: aqua;
+  color: white;
 } 
 
 .main__swiper-title {
