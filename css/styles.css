@@ -779,7 +779,7 @@ button:hover {
 
 .main__swiper-bg {
   margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
-  color: aqua;
+  color: white;
 } 
 
 .marg-bottom .store__inner-top,
@@ -1365,7 +1365,7 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   margin: 0;
-/*   height: 100vh; */
+  height: max-content;
   background-repeat: repeat, no-repeat;
   background-position: bottom;
   background-size: inherit;
