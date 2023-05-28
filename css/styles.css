@@ -777,11 +777,6 @@ button:hover {
 }
 */
 
-.main__swiper-bg {
-  margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
-  color: white;
-} 
-
 .marg-bottom .store__inner-top,
 .marg-bottom .section-title,
 .marg-bottom .h2,
@@ -1365,7 +1360,7 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   margin: 0;
-  height: max-content;
+  height: 100%;
   background-repeat: repeat, no-repeat;
   background-position: bottom;
   background-size: inherit;
@@ -1385,6 +1380,11 @@ a:hover {
  .main__swiper {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
+} 
+
+.main__swiper-bg {
+  margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
+  color: aqua;
 } 
 
 .main__swiper-title {
