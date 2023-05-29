@@ -1360,7 +1360,7 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   margin: 0;
-  height: inherit;
+  height: 100vh;
   background-repeat: repeat, no-repeat;
   background-position: bottom;
   background-size: inherit;
@@ -1377,13 +1377,10 @@ a:hover {
   margin-top: 150px;
 }
 
- .main__swiper {
-  height: calc(100vh - 30px);
-} 
-
 .main__swiper-bg {
   margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
   color: white;
+   height: calc(100vh - 30px);
 } 
 
 .main__swiper-title {
