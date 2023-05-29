@@ -1374,14 +1374,17 @@ a:hover {
   width: max-content;
   background-color: rgb(31, 31, 28, 0.8);
   padding: clamp(1.875rem, 1.4923rem + 1.6327vw, 3.125rem);
-  margin-top: 150px;
 }
 
 .main__swiper-bg {
   margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
-  color: white;
-   height: calc(100vh - 30px);
-} 
+  height: 100vh;
+}
+
+.main__swiper-bg {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+  }
 
 .main__swiper-title {
   font-family: 'Bebas Neue Cyrillic', sans-serif;
