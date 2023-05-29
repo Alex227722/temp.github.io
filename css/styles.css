@@ -1379,6 +1379,7 @@ a:hover {
 .main__swiper-bg {
   margin-bottom: clamp(0.9375rem, 0.5548rem + 1.6327vw, 2.1875rem);
   height: 100vh;
+   overflow: hidden;
 }
 
 .main__swiper-bg {
