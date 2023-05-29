@@ -1361,6 +1361,7 @@ a:hover {
   justify-content: flex-start;
   margin: 0;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background-repeat: repeat, no-repeat;
   background-position: bottom;
   background-size: inherit;
@@ -1384,7 +1385,6 @@ a:hover {
 
 .main__swiper-bg {
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
   }
 
 .main__swiper-title {
