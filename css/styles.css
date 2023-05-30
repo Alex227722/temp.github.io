@@ -30,14 +30,9 @@ body.active-color .table-box {
  justify-content: center;
  color: #ffffff;
  background-color: #FF3C03;
- height: 100%;
- padding: 20px;
+ max-height: 125px;
+ padding: 10px;
  margin-left: 5px;
-}
-
-.section__title {
-  display: flex;
-  align-items: center;
 }
 
 body.active-color .btn {
