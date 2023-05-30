@@ -1491,6 +1491,7 @@ a:hover {
   display: inline-block;
   color: #FFFFFF;
   background-color: #FF3C03;
+  line-height: initial;
   padding: 10px;
   margin-left: 5px;
 }
