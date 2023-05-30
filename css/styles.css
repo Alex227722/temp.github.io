@@ -34,7 +34,9 @@ body.active-color .table-box {
  padding: 20px;
  margin-left: 5px;
 }
-
+.section__title {
+    display: inline-grid;
+}
 body.active-color .btn {
   background-color: #6b6b67;
 }
