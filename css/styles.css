@@ -1492,7 +1492,7 @@ a:hover {
 
 .store__inner-top {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   margin-top: clamp(0.625rem, 0.2041rem + 1.7959vw, 2rem);
   margin-bottom: clamp(0.625rem, 0.2041rem + 1.7959vw, 2rem);
