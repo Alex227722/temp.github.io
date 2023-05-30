@@ -25,14 +25,12 @@ body.active-color .table-box {
 }
 
 .store__inner-top mark {
- display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   color: #FFFFFF;
   background-color: #FF3C03;
-  padding: 10px;
+  padding: 0 10px;
   box-sizing: border-box;
-  line-height: initial;
+  line-height: 2;
   margin-left: 5px;
 }
 
