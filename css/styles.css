@@ -31,6 +31,7 @@ body.active-color .table-box {
   color: #FFFFFF;
   background-color: #FF3C03;
   padding: 10px;
+  box-sizing: border-box;
   line-height: initial;
   margin-left: 5px;
 }
