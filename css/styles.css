@@ -24,6 +24,14 @@ body.active-color .table-box {
   background-color: #ffffff;
 }
 
+.store__inner-top mark {
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #FF3C03;
+  line-height: initial;
+  margin-left: 5px;
+}
+
 body.active-color .btn {
   background-color: #6b6b67;
 }
@@ -1485,15 +1493,6 @@ a:hover {
   justify-content: space-between;
   margin-top: clamp(0.625rem, 0.2041rem + 1.7959vw, 2rem);
   margin-bottom: clamp(0.625rem, 0.2041rem + 1.7959vw, 2rem);
-}
-
-.store__inner-top mark {
-  display: inline-block;
-  color: #FFFFFF;
-  background-color: #FF3C03;
-  line-height: initial;
-  padding: 10px;
-  margin-left: 5px;
 }
 
 .store__link {
